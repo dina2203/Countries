@@ -1,4 +1,5 @@
 package com.example.countriesinfolab6
 
-class RecyclerItemClickListener {
+interface RecyclerItemClickListener {
+    fun onItemClick(country: Country)
 }
