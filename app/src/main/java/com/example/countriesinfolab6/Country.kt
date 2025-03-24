@@ -1,4 +1,7 @@
 package com.example.countriesinfolab6
 
-class Country {
-}
+data class Country(
+    val name: String,
+    val flagResource: Int,
+    val population: Int
+)
